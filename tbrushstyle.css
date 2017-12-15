@@ -116,7 +116,18 @@
 
 @media screen and (max-width:600px) {
   .awesomeTable-viz-slideShow.slideShow-normal .slideShow-content {
-    background-color: #eee;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.42, #A8CFAB),
+	color-stop(1, #546347)
+);
+background-image: -o-linear-gradient(bottom, #A8CFAB 42%, #546347 100%);
+background-image: -moz-linear-gradient(bottom, #A8CFAB 42%, #546347 100%);
+background-image: -webkit-linear-gradient(bottom, #A8CFAB 42%, #546347 100%);
+background-image: -ms-linear-gradient(bottom, #A8CFAB 42%, #546347 100%);
+background-image: linear-gradient(to bottom, #A8CFAB 42%, #546347 100%);
   }
 
   .awesomeTable-viz-slideShow.slideShow-normal .slideShow-image {
