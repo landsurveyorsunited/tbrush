@@ -46,7 +46,7 @@
   font-weight: 700;
   margin-bottom: .5em;
   color: red;
-   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-fill-color: red; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
 }
