@@ -71,7 +71,7 @@
 }
 
 .awesomeTable-viz-slideShow .slideShow-text {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .awesomeTable-viz-slideShow .slideShow-link {
@@ -97,6 +97,7 @@
 
 .awesomeTable-viz-slideShow .slideShow-arrow:hover {
   opacity: 1;
+	background:rgba(231, 76, 60,0.4);
 }
 
 .awesomeTable-viz-slideShow.slideShow-normal .slideShow-content {
