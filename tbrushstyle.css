@@ -45,10 +45,10 @@
   font-size: 22px;
   font-weight: 700;
   margin-bottom: .5em;
-  color: white;
+  color: red;
    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: red;
+   -webkit-text-stroke-color: white;
 }
 
 .awesomeTable-viz-slideShow .slideShow-text {
