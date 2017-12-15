@@ -1,1 +1,136 @@
 .slideShow-arrow {color:red!important}
+.awesomeTable-viz-slideShow {
+  position: relative;
+  outline: 0;
+}
+
+.awesomeTable-viz-slideShow .slideShow-container {
+  overflow: hidden;
+}
+
+.awesomeTable-viz-slideShow .slideShow-content-transition>.slideShow-content {
+  transition: transform .5s;
+}
+
+.awesomeTable-viz-slideShow .slideShow-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+.awesomeTable-viz-slideShow .slideShow-htmlContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.awesomeTable-viz-slideShow .slideShow-title-cont {
+  width: 100%;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.awesomeTable-viz-slideShow .slideShow-title {
+  white-space: pre-wrap;
+  line-height: 1.3em;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: .5em;
+  color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.awesomeTable-viz-slideShow .slideShow-text {
+  font-size: 14px;
+}
+
+.awesomeTable-viz-slideShow .slideShow-link {
+  flex: auto;
+}
+
+.awesomeTable-viz-slideShow .slideShow-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.awesomeTable-viz-slideShow .slideShow-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  max-width: 60px;
+  overflow: hidden;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.awesomeTable-viz-slideShow .slideShow-arrow:hover {
+  opacity: 1;
+}
+
+.awesomeTable-viz-slideShow.slideShow-normal .slideShow-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.awesomeTable-viz-slideShow.slideShow-normal .slideShow-title-cont {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+  padding: 1em 2em;
+}
+
+@media screen and (max-width:600px) {
+  .awesomeTable-viz-slideShow.slideShow-normal .slideShow-content {
+    background-color: #eee;
+  }
+
+  .awesomeTable-viz-slideShow.slideShow-normal .slideShow-image {
+    position: relative;
+    flex: auto;
+    width: 100%;
+  }
+}
+
+.awesomeTable-viz-slideShow.slideShow-textonly .slideShow-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awesomeTable-viz-slideShow.slideShow-textonly .slideShow-title-cont {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  padding: 1em 25px;
+}
+
+.awesomeTable-viz-slideShow.slideShow-textonly .slideShow-arrow {
+  width: 25px;
+}
+
+.helper-fit {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
